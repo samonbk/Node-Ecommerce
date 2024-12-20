@@ -44,8 +44,8 @@ const Product = () => {
         </h2>
       </div>
       <div className="max-w-[1690px] mx-auto text-xl md:px-6 px-3 grid md:grid-cols-12 grid-cols-1 gap-4 md:mt-16 mt-8 min-h-[40vh]">
-        <div className="md:col-span-2 space-y-5">
-          <div className="w-[100px] h-[100px] rounded-2xl border border-gray-400 p-3 cursor-pointer">
+        <div className="md:col-span-2 gap-6 flex md:flex-col flex-row">
+          <div className="md:w-[100px] md:h-[100px] h-[80px] w-[80px] rounded-xl border border-gray-400 p-3 cursor-pointer relative z-20">
             <div
               className="w-full h-full overflow-hidden bg-cover bg-center"
               onClick={() => onChangeImage(selectProduct.image1)}
@@ -54,7 +54,7 @@ const Product = () => {
               }}
             ></div>
           </div>
-          <div className="w-[100px] h-[100px] rounded-2xl border border-gray-400 p-3 cursor-pointer">
+          <div className="md:w-[100px] md:h-[100px] h-[80px] w-[80px] rounded-xl border border-gray-400 p-3 cursor-pointer relative z-20">
             <div
               className="w-full h-full overflow-hidden bg-cover bg-center"
               onClick={() => onChangeImage(selectProduct.image2)}
@@ -91,7 +91,7 @@ const Product = () => {
               of this TV delivers vibrant and lifelike picture quality...
             </p>
           </div>
-          <div className=" max-w-[400px]">
+          <div className="md:max-w-[400px]">
             <p className="font-semibold text-gray-700 text-sm mb-2">Quantity</p>
             <div className="flex gap-3 items-center">
               <div className="flex gap-3 border border-gray-400 rounded-md max-w-[150px] justify-between">

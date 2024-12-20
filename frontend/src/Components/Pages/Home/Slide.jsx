@@ -199,7 +199,7 @@ export const ProductSlide = ({ product }) => {
         <SwiperSlide key={pro.id} className="space-y-3 group">
           <CardLink name={pro.name}>
             <div className="lg:space-y-3 space-y-2 relative">
-              <div className="w-full h-[200px] overflow-hidden relative">
+              <div className="w-full md:h-[200px] h-[150px] overflow-hidden relative">
                 <div className="flex items-center w-full h-full absolute top-0 left-0  group-hover:opacity-0 opacity-100 transition-all duration-500">
                   <img
                     className="w-full"
@@ -219,7 +219,7 @@ export const ProductSlide = ({ product }) => {
                 {pro.brand}
               </span>
               <div className="lg:space-y-2 space-y-1">
-                <h2 className="text-lg font-semibold group-hover:text-cyan-500">
+                <h2 className="text-lg font-semibold group-hover:text-cyan-500 min-h-16">
                   {pro.name}
                 </h2>
                 <p>

@@ -24,11 +24,6 @@ const BestSelling = () => {
     })();
   }, []);
 
-  function newPrice(price, discount) {
-    let newPrice = price - (price * discount) / 100;
-    return newPrice;
-  }
-
   return (
     <section className="max-w-[1690px] mx-auto lg:p-8 p-3 relative z-0">
       <div className="flex items-center justify-between border-b">

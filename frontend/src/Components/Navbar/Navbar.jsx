@@ -88,8 +88,8 @@ const Navbar = () => {
               <div
                 className={`lg:w-full w-[230px] transition-all duration-300 lg:absolute fixed top-1/2 -translate-y-1/2 lg:-translate-y-0 lg:left-0  ${
                   isOpen
-                    ? "lg:top-12 opacity-100 left-0 z-20"
-                    : "lg:top-14 lg:opacity-0 left-[-230px] -z-20"
+                    ? "lg:top-12 opacity-100 left-0 z-30"
+                    : "lg:top-14 left-[-230px] md:hidden z-30  md:-z-40"
                 }`}
               >
                 <div className=" bg-white rounded-lg text-gray-700 shadow-lg shadow-[rgba(0,0,0,0.04)] relative">
@@ -115,7 +115,7 @@ const Navbar = () => {
                     </ul>
                   </div>
                   <div
-                    className={`flex lg:hidden  gap-2 z-20 absolute top-[20px] -translate-y-1/2 right-[-36px] cursor-pointer bg-cyan-500 rounded-r-3xl w-10 h-10 items-center justify-center`}
+                    className={`flex lg:hidden  gap-2 z-40 absolute top-[20px] -translate-y-1/2 right-[-36px] cursor-pointer bg-cyan-500 rounded-r-3xl w-10 h-10 items-center justify-center`}
                     onClick={() => setIsOpen(!isOpen)}
                   >
                     <div className="text-xl flex items-center text-white">
