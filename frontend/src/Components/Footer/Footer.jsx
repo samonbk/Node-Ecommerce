@@ -16,7 +16,7 @@ import { BsTwitterX } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer className="">
-      <section className="md:pt-16 pt-4 mt-20 md:px-16 px-3 md:pb-6 pb-10 bg-gray-800 text-white">
+      <section className="md:pt-16 pt-4 md:px-16 px-3 md:pb-6 pb-10 bg-gray-800 text-white">
         <div className="max-w-[1690px] mx-auto grid md:grid-cols-3 xl:grid-cols-5 grid-cols-2 md:gap-10 gap-4">
           <div>
             <h3 className="text-xl">Our Information</h3>

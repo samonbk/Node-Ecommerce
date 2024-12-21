@@ -16,7 +16,7 @@ const EmailInput = () => {
         <div className="flex items-center gap-4">
           <div className="w-[75%]">
             <input
-              className="w-full py-2 focus:border-none px-4 rounded-lg"
+              className="w-full py-2 focus:border-none px-4 rounded-lg text-gray-700"
               type="text"
             />
           </div>

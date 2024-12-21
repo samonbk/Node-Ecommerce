@@ -96,12 +96,12 @@ const AdminNavbar = ({ page, setPage }) => {
             </NavLink>
           </li>
         </ul>
-        <div className="absolute bottom-0 left-0 px-3 pb-3 w-full">
+        <div className="fixed bottom-0 left-0 px-3 pb-3">
           <div className="relative group">
             <div className="text-3xl">
               <IoSettingsOutline />
             </div>
-            <div className="absolute -top-10 h-24">
+            <div className="absolute -top-10 h-24 w-24 text-center">
               <span
                 className="text-red-500 hidden group-hover:block rounded-2xl py-1 px-3 bg-white cursor-pointer"
                 onClick={handleLogout}

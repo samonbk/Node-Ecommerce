@@ -24,12 +24,13 @@ import GuestLayout from "./Components/Guest/UserLayout";
 import UserLayout from "./Components/User/UserLayout";
 import UserSignIn from "./Components/User/UserSignIn";
 import Product from "./Components/Product/Product";
+import Error from "./Components/Error/Error";
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout />} errorElement={<Error />}>
           <Route index element={<Home />} />
           <Route path="/account" element={<Account />} />
           <Route path="/product/:name" element={<Product />} />
